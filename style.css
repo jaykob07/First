@@ -18,15 +18,17 @@ body{
 .container{
     display:flex;
     justify-content:center ;
-    align-items: center;
+    align-items:flex-end;
     width: 70%;
     height: 100vh;
     display: flex;
-    max-width:max-content;
+    max-width:;
     background-color:;
+    flex-direction:;
+    align-content: flex-start;
 }
 .container .card{
-    display: flex;
+    display:flex;
     width: 100%;
     margin: 20px;
     padding: 30px;
@@ -35,7 +37,13 @@ body{
     flex-direction: column;
     background: rgb(137, 134, 134);
     overflow: hidden;
-    
+    box-shadow:10px 10px 30px rgb(220 220 200/0.9);
+    cursor: default;
+    transition:all 300ms ease;
+}
+.card:hover{
+    box-shadow:10px 10px 80px rgb(220 150 150/2);
+    transform:translateY(-8px);
 }
 .container .card .imagen img{
     width: 100px;
@@ -45,16 +53,26 @@ body{
     display:flex;
     flex-direction: column;
     align-items: center;
+    height:20rem;
+    text-overflow: ;
 }
 .container .img1{
     display: flex;
     position: relative;
     right: 90px;
-    bottom: 200px; 
+    bottom: 90px; 
 }
 .container .img4{
     display: flex;
     position: relative;
     left: 90px;
-    bottom: 200px;
+    bottom: 90px;
 }
+.container .card .contenido h3{
+    padding: 10px;
+}
+.container .card .contenido a{
+    padding: 30px;
+
+}
+
