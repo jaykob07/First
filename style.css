@@ -37,7 +37,7 @@ body{
     flex-direction: column;
     background: rgb(137, 134, 134);
     overflow: hidden;
-    box-shadow:10px 10px 30px rgb(220 220 200/0.9);
+    box-shadow:10px 10px 30px rgba(217, 217, 187, 0.9);
     cursor: default;
     transition:all 300ms ease;
 }
