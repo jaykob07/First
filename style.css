@@ -35,7 +35,7 @@ body{
     border-radius: 20px;
     align-items:center;
     flex-direction: column;
-    background: rgb(137, 134, 134);
+    background: rgb(138, 132, 132);
     overflow: hidden;
     box-shadow:10px 10px 30px rgba(217, 217, 187, 0.9);
     cursor: default;
